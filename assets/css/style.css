@@ -1,0 +1,693 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {box-sizing:border-box}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.slide-sec{}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.mySlides .text {
+  color: #f2f2f2;
+  font-size: 15px;
+margin-top: -10%;
+margin-bottom: 10%;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.mySlides img{
+  height: 40rem;
+}
+figure.slider { 
+ animation: 20s slidy infinite; 
+}
+figure img{
+  height: 25rem;
+}
+.slide-body{
+    background-color: whitesmoke;
+}
+.hero{
+    margin-top: -2%;
+}
+.row, .row1{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+  
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 3.75em;
+}
+#card-3{
+    margin-top: 60%;
+}
+.card{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.2), 0 0px 0 1px rgba(10,10,10,0.02);
+    transition: 0.3s;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    background-color:whitesmoke ;
+    height: 35rem;
+    text-align: center;
+    position: inherit;
+}
+.middle h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.middle h2{
+    color: black;
+    font-size: 32px;
+}
+
+.middle .py-6{
+    margin-left: 30%;
+    text-align: center;
+    width: 40%;
+}
+#card-4 , #card-5{
+    margin-top: -33%;
+    width: 60%;
+}
+#card-4 img{
+    width: 100%;
+}
+#card-5{
+    margin-left: 38%;
+}
+ #card-5 img{
+    width: 100%; 
+ }
+ .middle h4{
+     font-size: 35px;
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.opt-p{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+#slidy-container { 
+  width: 100%; overflow: hidden; margin: 0 auto;
+}
+.cards{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.2), 0 0px 0 1px rgba(10,10,10,0.02);
+    transition: 0.3s;
+    border-radius: 0.25rem;
+    width: 150%;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    background-color:whitesmoke ;
+    height: 17rem;
+    text-align: center;
+    position: inherit;
+}
+.cards:hover{
+  transform: scale(1.1);
+}
+#card-7, #card-8{
+  margin-top: -35%;
+  margin-left: -25%;
+}
+#slidy img{
+  width: 100%;
+  height: 25rem;
+}
+#sec-3 {
+  margin-top: -20%;
+  color: whitesmoke;
+  }
+.sec-3 {
+margin-top: -20%;
+color: whitesmoke;
+}
+.sec-3 h5{
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+.sec-2{
+  height: 5rem;
+}
+.sec-3 h1{
+  color: aqua;
+}
+.sec-3 p{
+  margin-bottom: 2%;
+}
+.section{
+  margin-top: 45%;
+}
+ .carousel-item img{
+   width: 100%;
+   height: 20rem;
+ }
+ .section-pro{
+   margin-top: 3%;
+ }
+ .topx{
+   margin-top: 2%;
+ }
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+ 
+ .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+ }
+ 
+ .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+ }
+ 
+ .cta:active {
+  transform: scale(0.95);
+ }
+ .cardY{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.2), 0 0px 0 1px rgba(10,10,10,0.02);
+  transition: 0.3s;
+  border-radius: 0.25rem;
+  width: 115%;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+  background-color:whitesmoke ;
+  height: 35rem;
+  text-align: center;
+  position: inherit;
+ }
+ .cardY p{
+   padding-left: 15%;
+   width: 70%;
+ }
+ .cardY h2{
+text-align: left;
+font-size: 15px;
+ }
+ .cardY span{
+   font-size: 30px;
+
+ }
+ .cta span{
+   font-size: 15px;
+ }
+ .cardY:hover{
+   transform: scale(1.1);
+ }
+ .con-card{
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.2), 0 0px 0 1px rgba(10,10,10,0.02);
+  transition: 0.3s;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+  background-color:whitesmoke ;
+  height: 15rem;
+  
+ 
+ }
+ #con-pic{
+   height: 20rem;
+   width: 100%;
+ }
+ .con-card img{
+   width: 100%;
+ }
+ .con-card h1{
+   text-align: center;
+   font-size: 18px;
+   font-weight: 800;
+ }
+ .con-card h2{
+   font-size: 16px;
+ }
+ .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#popbtn{
+  margin-top: 10%;
+  width: 50%;
+  height: 2.5rem;
+  background-color: #234567;
+  border: 3px solid whitesmoke;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+#testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.testimonial-heading{
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+}
+.testimonial-box{
+  width:500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #979797;
+  font-size: 0.8rem;
+}
+.reviews{
+  color: #f9d71c;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+#prices{
+  font-size: 20px;
+  margin-left: -150%;
+  margin-top: 20%;
+}
+#con-pic2{
+  height: 25rem;
+  width: 100%;
+}
+.mikbutton{
+  background-color: #f2f2f2;
+  border: 2px solid blue;
+  color: #f2f2f2;
+  width: 150%;
+  height: 3rem;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* @media(max-width:1060px){
+  .testimonial-box{
+      width:45%;
+      padding: 10px;
+  }
+}
+@media(max-width:790px){
+  .testimonial-box{
+      width:100%;
+  }
+  .testimonial-heading h1{
+      font-size: 1.4rem;
+  }
+}
+@media(max-width:340px){
+  .box-top{
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+  .reviews{
+      margin-top: 10px;
+  }
+}
+::selection{
+  color: #ffffff;
+  background-color: #252525;
+} */
+
+@media(max-width:760px){
+.mySlides img{
+  width: 100%;
+  height: 30rem;
+}
+.mySlides .text{
+  margin-top: -50%;
+  margin-bottom:50% ;
+}
+.middle{
+  margin: 0;
+}
+.middle .py-6{
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+margin-left: 0;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+}
+#card-3, #card-2{
+  margin-top: 0%;
+}
+#card-4 , #card-5{
+  width: 140%;
+  margin-left: -20%;
+}
+.card{
+  width: 140%;
+  margin-left: -20%;
+}
+.opt-p{
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+margin-left: 0;
+}
+#slidy-container{
+  width: 140%;
+  margin-left: -20%;
+}
+.cards{
+  width: 160%;
+  margin-left: 0;
+}
+#card-7 , #card-8{
+  margin-left: 0;
+
+}
+.option{
+  width: 130%;
+  margin-left: -33%;
+}
+.sec-3{
+  margin-top: 0%;
+  width: 130%;
+}
+.sec-3 h5{
+  margin-top: -30%;
+  font-size: 25px;
+}
+.sec-3 h1{
+  margin-top: 15%;
+  margin-left: -17%;
+  
+}
+.sec-3 p{
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: -15%;
+
+}
+.section{
+  margin-top: 200%;
+}
+.cardY{
+  width: 170%;
+  margin-left: -20%;
+}
+#con-pic, #con-pic2{
+  width: 150%;
+  margin-left: -60px;
+  margin-top: -80px;
+  height: 120%;
+  
+
+}#prices{
+  margin-left: -4rem;
+  margin-top: 0;
+}
+.mikbutton{
+  margin-top: -10px;
+  width: 250%;
+}
+
+
+}
+@media(width:768px) {
+  .middle{
+    margin: 0;
+  }
+  .card, #card-4, #card-5{
+    height: 50rem;
+    width: 110%;
+    margin-left: -35px;
+    
+  }
+  #slidy-container{
+    width: 140%;
+    margin-left: -20%;
+    
+    
+  }
+  #card-7{
+    margin-top: -60px;
+    width: 130%;
+    margin-left: -12%;
+    
+  }
+  #card-8{
+    margin-top: -110px;
+    width: 130%;
+    margin-left: -12%;
+    
+  }
+  .cards button {
+    margin-top: 50px;
+  }
+  #sec-3{
+    margin-left: 130px;
+    margin-top: 60px;
+  }
+  .sec-3{
+    margin-top: 40px;
+  }
+  .sec-3 h5{
+    margin-top: 0;
+  }
+  .sec-3 h1{
+    margin-top: 30px;
+    margin-left: -14rem;
+  }
+  .row{
+    flex-direction: column;
+    display: flex;
+  }
+  #card-3{
+    margin-top: 0;
+  }
+  .section{
+    margin-top: 130%;
+  }
+  .cardY img{
+    height: 20rem;
+    width: 100%;
+  } 
+
+
+ 
+
+
+  
+
+  
+
+    
+  
+  
+ 
+} 
