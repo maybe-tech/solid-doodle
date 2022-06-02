@@ -565,6 +565,7 @@ margin-left: 0;
 .cards{
   width: 160%;
   margin-left: 0;
+  
 }
 #card-7 , #card-8{
   margin-left: 0;
@@ -615,7 +616,16 @@ margin-left: 0;
   margin-top: -10px;
   width: 250%;
 }
-
+.cardY img{
+  /* height: 20rem; */
+  width: 80%;
+}
+/* .cards p{
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-bottom: ;
+} */
 
 }
 @media(width:768px) {
@@ -661,7 +671,7 @@ margin-left: 0;
   }
   .sec-3 h1{
     margin-top: 30px;
-    margin-left: -14rem;
+    margin-left: -8rem;
   }
   .row{
     flex-direction: column;
@@ -673,10 +683,19 @@ margin-left: 0;
   .section{
     margin-top: 130%;
   }
+  .cardY{
+    margin-left: -3rem;
+  }
   .cardY img{
     height: 20rem;
     width: 100%;
   } 
+  .cardY p{
+    margin-left: 5rem;
+  }
+  .cardY h2{
+    font-size: 20px;
+  }
 
 
  
